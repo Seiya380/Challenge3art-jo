@@ -1,0 +1,56 @@
+body {
+    background-color: var(--fond-page);
+    color: var(--texte-principal);
+    font-family: var(--font-texte);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+ 
+h1 {
+    color: var(--titre-principal);
+    font-family: var(--font-titre);
+    font-size: 3rem;
+    margin-bottom: 50px;
+    border-bottom: 4px solid var(--couleur-accent);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+ 
+h3 {
+    color: var(--titre-principal);
+    font-family: var(--font-titre);
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+ 
+.btn-instagram {
+    display: inline-block;
+    background-color: var(--btn-insta);
+    color: var(--texte-btn);
+    
+   
+    padding: 12px 30px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    
+   
+    font-family: var(--font-titre);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    
+    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(213, 21, 239, 0.3);
+}
+ 
+ 
+.btn-instagram:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(213, 21, 239, 0.6);
+}
