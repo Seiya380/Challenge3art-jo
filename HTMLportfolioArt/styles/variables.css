@@ -1,12 +1,12 @@
 :root {
     /* Couleurs principales */
-    --fond-page: #0f172a;
+    --fond-page: #000000;
     --texte-principal: #cbd5e1;
     --titre-principal: #ffffff;
-    --couleur-accent: #483c32;
+    --couleur-accent: #ff03ea;
 
     /* Couleurs des cartes */
-    --fond-boite-texte: #1e293b;
+    --fond-boite-texte: #250e31;
     --fond-dos-carte: #171a21;
 
     /* Couleurs des boutons */

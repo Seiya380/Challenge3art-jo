@@ -1,11 +1,16 @@
 body {
-    background-color: var(--fond-page);
+   
     color: var(--texte-principal);
     font-family: var(--font-texte);
     text-align: center;
     margin: 0;
     padding: 20px;
+    background-image: url("coloriage-montagne-3.jpg.webp");
+    background-image: auto;
+    background-size: auto;
 }
+
+
  
 h1 {
     color: var(--titre-principal);

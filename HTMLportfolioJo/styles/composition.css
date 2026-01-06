@@ -9,7 +9,6 @@
 }
 
 
-/* Section gens (si utilisée ailleurs) */
 .game {
     display: flex;
     flex-direction: column;
