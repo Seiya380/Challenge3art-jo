@@ -1,15 +1,25 @@
 body {
-   
     color: var(--texte-principal);
     font-family: var(--font-texte);
     text-align: center;
     margin: 0;
     padding: 20px;
-    background-image: url("coloriage-montagne-3.jpg.webp");
-    background-image: auto;
-    background-size: auto;
+    
+    background-image: 
+        linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)),
+        url('../assets/images/coloriage-montagne-3.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 
+.emoji-titre {
+    margin: 0 15px; 
+    font-size: 0.9em; 
+    vertical-align: bottom; 
+}
 
  
 h1 {
